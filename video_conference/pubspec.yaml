@@ -1,0 +1,35 @@
+name: video_conference
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.3.0
+
+  amplify_flutter: ^1.6.0
+  amplify_datastore: ^1.5.0
+  amplify_datastore_plugin_interface: ^1.6.0
+  amplify_auth_cognito: ^1.6.0
+  amplify_api: ^1.6.0
+
+  zego_uikit: ^2.15.0
+  zego_uikit_prebuilt_video_conference: ^2.6.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  dart_code_metrics: any
+
+flutter:
+  uses-material-design: true
