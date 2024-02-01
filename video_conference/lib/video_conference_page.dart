@@ -41,8 +41,8 @@ class VideoConferencePageState extends State<VideoConferencePage> {
           // 拡張されたビデオ会議ウィジェット
           Expanded(
             child: ZegoUIKitPrebuiltVideoConference(
-              appID: 195057011,
-              appSign: '335ff60edc3a641a13b02338902387ee02f06d3a874b114f4c61b90b41e7781b',
+              appID: ,
+              appSign: ,
               userID: localUserID,
               userName: 'user_$localUserID',
               conferenceID: widget.conferenceID,
